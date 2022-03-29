@@ -11,4 +11,4 @@ Dodajte še ukaz za zakasnitev s funkcijo Delay iz knjižnice HAL, in sicer 2 se
 
 Program dopolnite tako, da boste SAMO ob pritisku na tipko USER poslali vaši imeni preko USART protokola na terminal odjemalca Putty. Napišite tudi spremembo kode v vaš komentar githuba! 
 
-Komentar:
+Komentar: HAL_Delay sem spremenil na 100, tako da sta se ob pritisku na tipko prikazala imena, vendar sta se prikazala samo enkrat.

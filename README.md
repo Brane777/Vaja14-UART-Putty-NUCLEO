@@ -3,7 +3,7 @@ Katere dva mostička bi morali odspajkati in kateri dve povezavi pospajkati, da 
 
 V področju Connectivity aktivirajte protokol USART2 kot asinhroni. Katera dva pina sta se pobarvala zeleno oz. se aktivirala? PA2 in PA3. 
 
-V polju Configuration izbranega serijskega vmesnika pustimo privzeto hitrost (Baud Rate), ki znaša 115200 Bits/s.  
+V polju Configuration izbranega serijskega vmesnika pustimo privzeto hitrost (Baud Rate), ki znaša: 115200 Bits/s.  
 
 Za to funkcijo zapišite ukaz za vklop/izklop zelene LED (pomagajte si z metodo toggle, glej vaja0a): HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 
@@ -11,4 +11,4 @@ Dodajte še ukaz za zakasnitev s funkcijo Delay iz knjižnice HAL, in sicer 2 se
 
 Program dopolnite tako, da boste SAMO ob pritisku na tipko USER poslali vaši imeni preko USART protokola na terminal odjemalca Putty. Napišite tudi spremembo kode v vaš komentar githuba! 
 
-Komentar: HAL_Delay sem spremenil na 100, tako da sta se ob pritisku na tipko prikazala imena, vendar sta se prikazala samo enkrat. Imela sva tudi težave z izbiro COM porta na programu Putty
+Komentar: HAL_Delay sem spremenil na 100, tako da sta se ob pritisku na tipko prikazala imena, vendar se prikažeta samo enkrat. Imela sva tudi težave z izbiro COM porta na programu Putty.

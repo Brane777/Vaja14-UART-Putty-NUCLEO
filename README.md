@@ -5,7 +5,7 @@ V področju Connectivity aktivirajte protokol USART2 kot asinhroni. Katera dva p
 
 V polju Configuration izbranega serijskega vmesnika pustimo privzeto hitrost (Baud Rate), ki znaša 115200 Bits/s.  
 
-Za to funkcijo zapišite ukaz za vklop/izklop zelene LED (pomagajte si z metodo toggle, glej vaja0a):
+Za to funkcijo zapišite ukaz za vklop/izklop zelene LED (pomagajte si z metodo toggle, glej vaja0a): HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 
 Dodajte še ukaz za zakasnitev s funkcijo Delay iz knjižnice HAL, in sicer 2 sekunde (glej vaja0a): 
 

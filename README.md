@@ -7,6 +7,6 @@ V polju Configuration izbranega serijskega vmesnika pustimo privzeto hitrost (Ba
 
 Za to funkcijo zapišite ukaz za vklop/izklop zelene LED (pomagajte si z metodo toggle, glej vaja0a): HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 
-Dodajte še ukaz za zakasnitev s funkcijo Delay iz knjižnice HAL, in sicer 2 sekunde (glej vaja0a): 
+Dodajte še ukaz za zakasnitev s funkcijo Delay iz knjižnice HAL, in sicer 2 sekunde (glej vaja0a): HAL_Delay(1000);
 
 Komentar:
